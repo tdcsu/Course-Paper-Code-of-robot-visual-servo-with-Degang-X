@@ -1,0 +1,13 @@
+<launch>
+
+    <!--- Run Rviz-->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d /home/csuuav/hps_data/hps.rviz" />
+    
+    <!--- run usb cam-->
+  <include file="$(find usb_cam)/launch/usb_cam-test.launch"/>
+  
+  <include file="$(find livox_ros_driver)/launch/livox_lidar.launch"/>
+  
+  <node name="camera_lidar_cali" pkg="camera_lidar_cali" type="camera_lidar_cali"/>
+  
+</launch>
