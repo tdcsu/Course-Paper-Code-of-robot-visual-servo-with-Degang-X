@@ -1,2 +1,4 @@
-# Course-Paper-Code-of-robot-visual-servo-with-Degang-X
-Course Paper Code of robot visual servo with Degang Xu
+# Course-Paper-Code-of-robot-visual-servo-with-D.G.-Xu
+
+Course Paper Code of robot visual servo with D.G. Xu
+
